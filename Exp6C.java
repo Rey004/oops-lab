@@ -2,12 +2,12 @@
 
 import java.io.*;
 
-class Person implements Serializable {
+class Human implements Serializable {
     private static final long serialVersionUID = 1L;
     private String name;
     private int age;
 
-    public Person(String name, int age) {                                                                                                                                                                                                                                                                                                                                                                                                                               
+    public Human(String name, int age) {                                                                                                                                                                                                                                                                                                                                                                                                                               
         this.name = name;
         this.age = age;
     }
@@ -21,7 +21,7 @@ class Person implements Serializable {
     }
 }
 
-class Student extends Person {
+class Student extends Human {
     private static final long serialVersionUID = 1L;
     private int id;
 
